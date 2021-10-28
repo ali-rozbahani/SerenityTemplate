@@ -1,0 +1,247 @@
+@media screen and (min-width : 980px) {
+    .nav-icons{
+        background-color: transparent;
+        padding: 0 50px;
+    }
+    .burger-button{
+        display: none;
+    }
+    .nav{
+        position: static;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .nav-list{
+        position: relative;
+        display: flex;
+        padding: 0 20px;
+        background-color: transparent;
+        width: auto;
+    }
+    .nav-ul{
+        display: flex;
+        padding-right: 20px;
+    }
+    .nav-ul li {
+        padding: 0 10px;
+    }
+
+
+
+    .card-features{
+        display: grid;
+        grid-template-columns: auto auto auto !important;
+        padding: 0 60px !important;
+    }
+    .card-feature{
+        height: 320px !important;
+        margin: 20px auto;
+
+    }
+
+
+    .about-us p {
+        padding: 10px 100px;
+    }
+
+
+    .team-member-cards{
+        display: flex;
+        padding: 0 70px;
+
+    }
+    .team-member-card {
+        margin: 0 20px;
+        max-height: 660px !important;
+        min-height: 400px !important;
+    }
+
+
+    .our-services-cards{
+        display: flex;
+        padding: 0 70px;
+        margin: 30px 0;
+
+    }
+    .our-services-card {
+        margin: 0 20px;
+        max-height: 660px !important;
+        min-height: 400px !important;
+    }
+
+
+    .cards-lastest-news{
+        display: flex;
+    }
+    .card-lastest-news{
+        margin: 5px 15px;
+    }
+
+
+
+    .subscribe{
+        display: flex;
+        align-items: center;
+        justify-self: center;
+        height: 200px;
+        flex-wrap: nowrap;
+    }
+    .title-subscribe{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        margin-left: 50px;
+        flex-wrap: nowrap;
+    }
+    .subscribe-inputs{
+        width: 350px !important;
+    }
+
+
+
+
+    .contact-us-inputs{
+        width: 80%;
+    }
+    .contact-us-contents{
+        width: 20% !important;
+    }
+    .contact-us-name input{
+        width: 40% !important;
+    }
+    .contact-us-email input , .contact-us-massage textarea{
+        width: 80% !important;
+    }
+    .contact-us-name-label , .contact-us-inputs h2{
+        width: 80% !important;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+}
+
+@media screen and (min-width : 500px) {
+    .btns-hero{
+        display: flex;
+        justify-content: center;
+        padding-top: 15px;
+    }
+}
+
+@media screen and (min-width : 576px){
+    .card-features{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    .card-feature{
+        height: 350px;
+        margin: 20px auto;
+    }
+    .team-member-card{
+        width: 70%;
+    }
+    .our-services-card{
+        width: 70%;
+
+    }
+
+
+
+    .banner-download{
+        text-align: center;
+    }
+
+
+    .subscribe{
+        padding: 10px 10px;
+    }
+
+
+
+
+    .contact-us-name input{
+        width: 250px;
+    }
+    .contact-us-email input , .contact-us-massage textarea{
+        width: 510px;
+    }
+    .contact-us-name-label , .contact-us-inputs h2{
+        width: 510px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .contact-us-contents{
+        width: 510px;
+        margin: 0 auto;
+        padding: 0;
+    }
+}
+
+@media screen and (min-width : 770px){
+    .gallery-photo-gallery{
+        display: grid;
+        grid-template-columns:1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+
+
+    .banner-download div{
+        display: grid;
+        grid-auto-flow: column;
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+        justify-content: center;
+        align-items: center;
+    }
+    .banner-download h1 {
+        font-family: 'Lato', sans-serif;
+        font-size: 56px;
+        line-height: 67px;
+        font-weight: 300;
+    }
+
+
+    .title-subscribe{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: nowrap;
+    }
+    .title-subscribe h2{
+        font-size: 50px !important;
+    }
+    .title-subscribe p{
+        max-width: 400px;
+    }
+    .subscribe-inputs{
+        width: 80%;
+        margin: auto;
+    }
+
+
+
+
+    .contact-us{
+        display: flex;
+        align-items: center;
+    }
+    .contact-us-inputs{
+        width: 60%;
+    }
+    .contact-us-contents{
+        width: 40%;
+    }
+    .contact-us-name input{
+        width: 187px;
+    }
+    .contact-us-email input , .contact-us-massage textarea{
+        width: 390px;
+    }
+    .contact-us-name-label , .contact-us-inputs h2{
+        width: 390px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
